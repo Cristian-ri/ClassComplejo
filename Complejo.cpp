@@ -1,4 +1,5 @@
 #include "Complejo.hpp"
+#include<math.h>
 
 Complejo::Complejo(double pReal, double pImaginario){
 		setReal(pReal);
@@ -11,6 +12,8 @@ Complejo::Complejo(){
 	cout<<"El complejo es : "<<real<<"+"<<imaginario;
 	cout<<"i"<<"= ("<<real<<")"<<"("<<imaginario<<")"<<endl;
 }
+
+
 
 void Complejo::setReal(double preal){
 	real = preal;
@@ -47,4 +50,12 @@ void Complejo::conjugado(){
 		cout<<"El numero complejo es: "<<getReal()<<"+"<<c<<"i"<<endl;
 	}
 	
+}
+
+void Complejo::modulo(){
+	int x, y, z;
+	x = getReal()*getReal();
+	y = getImaginario()*getImaginario();
+	z = x + y;
+	cout<<"Objeto 3: "<<sqrt(z)<<endl;
 }

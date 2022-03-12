@@ -3,7 +3,7 @@
 int main()
 {
 	cout<<"---------------Prueba--------------"<<endl;
-	Complejo c1(-2,3), c2(8,-5);
+	Complejo c1(-2,3), c2(8,-5), c3(5,8);
 	c1.mostrarComplejo();
 	c2.mostrarComplejo();
 	cout<<"Parte real del objecto 1: "<<c1.getReal()<<endl;
@@ -14,6 +14,9 @@ int main()
 	cout<<"Conjugado de los complejos: "<<endl;
 	c1.conjugado();
 	c2.conjugado();
+	cout<<"\n";
+	cout<<"Modulo de un complejo"<<endl;
+	c3.modulo();
 	
 	return 0;
 }
