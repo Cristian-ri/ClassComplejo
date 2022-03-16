@@ -29,6 +29,10 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
+<<<<<<< Updated upstream
+=======
+UnitCount=3
+>>>>>>> Stashed changes
 
 [VersionInfo]
 Major=1
@@ -49,3 +53,36 @@ ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
 
+<<<<<<< Updated upstream
+=======
+[Unit1]
+FileName=main.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit2]
+FileName=Complejo.hpp
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+CompileCpp=1
+
+[Unit3]
+FileName=Complejo.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+>>>>>>> Stashed changes
