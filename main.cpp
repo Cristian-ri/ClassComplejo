@@ -1,20 +1,10 @@
-<<<<<<< Updated upstream
-=======
 #include "Complejo.hpp"
 //apuntador tipo objeto
 /*Complejo *ptrComplejo;
 void ingresarComplejo(Complejo *, int);*/
->>>>>>> Stashed changes
-
 
 int main() 
 {
-<<<<<<< Updated upstream
-	
-	
-	return 0;
-}
-=======
 	int op;
 	int cantidadC;
 	
@@ -92,4 +82,3 @@ int main()
 	}
 }*/
 
->>>>>>> Stashed changes
